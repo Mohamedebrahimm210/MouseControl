@@ -1,0 +1,17 @@
+E:\Projects\MouseControl\MouseControl\MouseControl\bin\Debug\net8.0-windows\MouseControl.exe
+E:\Projects\MouseControl\MouseControl\MouseControl\bin\Debug\net8.0-windows\MouseControl.deps.json
+E:\Projects\MouseControl\MouseControl\MouseControl\bin\Debug\net8.0-windows\MouseControl.runtimeconfig.json
+E:\Projects\MouseControl\MouseControl\MouseControl\bin\Debug\net8.0-windows\MouseControl.dll
+E:\Projects\MouseControl\MouseControl\MouseControl\bin\Debug\net8.0-windows\MouseControl.pdb
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.Form1.resources
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.csproj.GenerateResource.cache
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.AssemblyInfoInputs.cache
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.AssemblyInfo.cs
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.csproj.CoreCompileInputs.cache
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.dll
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\refint\MouseControl.dll
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.pdb
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\MouseControl.genruntimeconfig.cache
+E:\Projects\MouseControl\MouseControl\MouseControl\obj\Debug\net8.0-windows\ref\MouseControl.dll
+E:\Projects\MouseControl\MouseControl\MouseControl\bin\Debug\net8.0-windows\appicon.ico
