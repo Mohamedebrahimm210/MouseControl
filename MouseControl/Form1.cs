@@ -20,10 +20,27 @@ namespace MouseControl
 
         private CancellationTokenSource _cts;
         private Random _random = new Random();
+        private int countdownSeconds = 120; // 2 minutes
+        private Label lblTimer;
+        private System.Windows.Forms.Timer uiTimer;
+
 
         public Form1()
         {
             InitializeComponent();
+            uiTimer = new System.Windows.Forms.Timer();
+            uiTimer.Interval = 1000; // 1 second interval
+            uiTimer.Tick += UiTimer_Tick;
+
+            lblTimer = new Label
+            {
+                Location = new Point(50, 70),
+                Size = new Size(250, 30),
+                Text = "Timer: Ready"
+            };
+
+            this.Controls.Add(lblTimer);
+
 
             btnStart.Click += BtnStart_Click;
             btnStop.Click += BtnStop_Click;
@@ -42,7 +59,7 @@ namespace MouseControl
 
         private void BtnStart_Click(object sender, EventArgs e)
         {
-            countdownSeconds = 120;
+            //countdownSeconds = 120;
             uiTimer.Start(); // Start UI countdown
 
             if (_cts != null)
@@ -96,7 +113,7 @@ namespace MouseControl
             SetThreadExecutionState(ES_CONTINUOUS);
         }
 
-        private int countdownSeconds = 120; // 2 minutes in seconds
+        //private int countdownSeconds = 120; // 2 minutes in seconds
         private void UiTimer_Tick(object sender, EventArgs e)
         {
             countdownSeconds--;
